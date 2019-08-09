@@ -1,4 +1,4 @@
-# Sample 01 - Logging In and Gated Content
+# Kong ReactJs Integration
 
 This sample demonstrates:
 
