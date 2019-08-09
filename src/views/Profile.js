@@ -36,7 +36,9 @@ const Profile = () => {
                 </Col>
             </Row>
             <Row>
-            <Highlight>{JSON.stringify(userData, null, 2)}</Highlight>
+                <h2>Customer Account Information got from Kong Server</h2>
+                <Highlight>{JSON.stringify(userData, null, 2)}</Highlight>
+                <a href="http://localhost:3001">Transaction App</a>
             </Row>
         </Container>
     );
